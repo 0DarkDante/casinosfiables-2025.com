@@ -22,7 +22,7 @@ li {
   font-style: normal;
   list-style: none;
   padding: 0;
-  color: #f28d8d;;
+  color: #FF8F00;
 }
 .container {
   margin: 0 auto;
@@ -49,35 +49,58 @@ li {
   padding: 0;
 }
 
-.nav-list>li>a {
-  color: #000;
-  /* Слонова кістка */
+.nav-list > li > a {
+  color: #740000;
   text-decoration: none;
   padding-bottom: 8px;
   display: inline-block;
-  transition: color 0.2s ease, border-color 0.2s ease;
+  transition: color 0.3s ease, border-color 0.3s ease;
 }
 
-.nav-list>li {
+.nav-list > li {
   border-bottom: 3px solid transparent;
 }
 
-.nav-list>li:hover {
-  border-bottom-color: #FFD700;
-  /* Золото */
+.nav-list > li:hover {
+  border-bottom-color: #FF8F00; /* бурштиновий */
 }
 
-.nav-list>li>a:hover {
-  color: #FFD700;
-  /* Золото при наведенні */
+.nav-list > li > a:hover {
+  color: #FF8F00; /* бурштиновий акцент при наведенні */
 }
+
 .hero {
-  background: linear-gradient(to bottom, #121212, #3b0a0a);
+  background-image: linear-gradient(rgba(28, 24, 0, 0.7), rgba(28, 24, 0, 0.7)),
+      url('/images/head.jpg');
+    /* заміни на свій шлях */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #F5F5F5;
+    padding: 20px 0;
+    border-bottom: 2px solid #5c5a02;
+    /* бронзова лінія */
   color: #F5F5F5;
-  /* слонова кістка */
   font-size: 40px;
-  padding: 60px 20px;
+  padding: 70px 20px;
   text-align: center;
+  position: relative;
+  overflow: hidden;
+  border-bottom: 4px solid #6A1B9A;
+  /* фіолетовий акцент */
+  animation: fadeInHero 1s ease-out forwards;
+}
+
+@keyframes fadeInHero {
+  0% {
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 .hero > .container {
@@ -130,12 +153,11 @@ li {
   margin: 10px 0;
 }
 .button {
-  background-color: #C62828;
-  /* рубіновий червоний */
-  padding: 10px 15px;
-  border-radius: 10px;
-  line-height: 1.8;
-  border: solid 2px #CD7F32;
+  background-color: #441313;
+    padding: 10px 15px;
+    border-radius: 10px;
+    line-height: 1.8;
+    border: solid 2px #5c5a02;
   /* бронза */
   text-transform: uppercase;
   color: #F5F5F5;
@@ -146,12 +168,9 @@ li {
 }
 
 .button:hover {
-  background-color: #A32020;
-  /* темніший червоний */
-  border-color: #FFD700;
-  /* золото */
-  color: #FFD700;
-  /* текст — золото */
+  background-color: #FF8F00;
+    border-color: #1c1800;
+    color: #680202;
 }
 
 .comment,
@@ -300,191 +319,216 @@ li {
   bottom: 0;
   left: 0;
   right: 0;
-  background-color: #1e1e1e;
-  /* Темний фон */
+  background: linear-gradient(to top, #1c1800, #441313);
+  border-top: 3px solid #FF8F00;
   color: #F5F5F5;
-  /* Слонова кістка */
-  padding: 20px;
-  font-size: 16px;
-  text-align: center;
-  box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.5);
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+  font-size: 15px;
+  padding: 22px 18px;
+  box-shadow: 0 -4px 20px rgba(255, 143, 0, 0.2);
   z-index: 9999;
-  border-top: 2px solid #CD7F32;
-  /* Бронзова лінія зверху */
+  text-align: center;
+  animation: slideInUp 0.6s ease;
+}
+
+@keyframes slideInUp {
+  from {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0%);
+    opacity: 1;
+  }
 }
 
 .cookie-buttons {
-  margin-top: 15px;
+  margin-top: 18px;
   display: flex;
   justify-content: center;
-  gap: 15px;
+  gap: 20px;
+  flex-wrap: wrap;
 }
 
 .btn {
-  padding: 10px 20px;
-  border-radius: 6px;
-  font-weight: 600;
+  padding: 10px 24px;
+  border-radius: 50px;
+  font-size: 14px;
   text-transform: uppercase;
-  cursor: pointer;
+  font-weight: 700;
+  border: 2px solid transparent;
   transition: all 0.3s ease;
+  cursor: pointer;
+  min-width: 150px;
+  box-shadow: 0 0 10px rgba(255, 143, 0, 0.2);
 }
 
-/* Кнопка "J’accepte" */
+/* Прийняти */
 .btn-accept {
-  background-color: #C62828;
-  /* рубіновий */
-  color: #F5F5F5;
-  border: 2px solid #C62828;
+  background: #FF8F00;
+  color: #1c1800;
+  border-color: #FF8F00;
 }
 
 .btn-accept:hover {
-  background-color: #A32020;
+  background: #ffd180;
+  color: #441313;
   border-color: #FFD700;
-  /* золото */
-  color: #FFD700;
+  box-shadow: 0 0 16px #FFD700;
 }
 
-/* Кнопка "Je refuse" */
+/* Відхилити */
 .btn-reject {
-  background-color: transparent;
-  color: #F5F5F5;
-  border: 2px solid #CD7F32;
-  /* бронза */
+  background: transparent;
+  color: #FF8F00;
+  border: 2px solid #5c5a02;
 }
 
 .btn-reject:hover {
-  background-color: #CD7F32;
-  color: #121212;
+  background-color: #5c5a02;
+  color: #F5F5F5;
+  box-shadow: 0 0 10px #5c5a02;
 }
+
 
 
 
 /* Стилі для модалки контактів */
     /* Оверлей модалки */
-    .overlay-custom {
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      background: rgba(18, 18, 18, 0.95);
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      opacity: 0;
-      pointer-events: none;
-      transition: opacity 0.35s ease;
-      z-index: 9999;
-    }
-  
-    .overlay-custom.visible {
-      opacity: 1;
-      pointer-events: auto;
-    }
-  
-    /* Вміст модалки */
-    .modal-box-custom {
-      background-color: #1e1e1e;
-      border: 2px solid #CD7F32;
-      /* бронза */
-      border-radius: 12px;
-      padding: 40px 30px;
-      max-width: 400px;
-      width: 90%;
-      color: #F5F5F5;
-      text-align: center;
-      box-sizing: border-box;
-      box-shadow: 0 12px 30px rgba(0, 40, 80, 0.7);
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    }
-  
-    /* Поля форми */
-    .input-custom,
-    .textarea-custom {
-      width: 100%;
-      margin: 12px 0;
-      padding: 0.75rem 1rem;
-      border-radius: 8px;
-      border: 1.5px solid #B71C1C;
-      /* темно-червоний */
-      background-color: #4A1A1A;
-      /* темний червоний фон */
-      color: #F5D6D6;
-      /* світло-рожевий текст */
-      font-size: 1rem;
-      box-sizing: border-box;
-      transition: border-color 0.3s ease, background-color 0.3s ease;
-    }
-  
-    .input-custom::placeholder,
-    .textarea-custom::placeholder {
-      color: #E57373;
-      /* світло-червоний */
-      opacity: 1;
-    }
-  
-    .input-custom:focus,
-    .textarea-custom:focus {
-      outline: none;
-      border-color: #E53935;
-      /* яскраво-червоний */
-      background-color: #7F1A1A;
-      /* насичений темний червоний */
-      color: #FFEBEE;
-      /* дуже світлий рожево-червоний */
-    }
-  
-    .textarea-custom {
-      resize: vertical;
-      min-height: 120px;
-      max-height: 180px;
-      overflow-y: auto;
-    }
-  
-    /* Кнопки */
-    .button-group-custom {
-      display: flex;
-      gap: 1rem;
-      justify-content: center;
-      margin-top: 1rem;
-    }
-  
-    .btn-submit-custom,
-    .btn-close-custom {
-      flex: 1;
-      padding: 0.75rem 1.2rem;
-      font-size: 1rem;
-      border-radius: 8px;
-      cursor: pointer;
-      font-weight: 600;
-      text-transform: uppercase;
-      border: none;
-      transition: background-color 0.3s ease;
-    }
-  
-    .btn-submit-custom {
-      background-color: #C62828;
-      /* основний червоний */
-      color: white;
-      border: 2px solid #C62828;
-    }
-  
-    .btn-submit-custom:hover {
-      background-color: #D32F2F;
-      /* трохи світліший */
-    }
-  
-    .btn-close-custom {
-      background: transparent;
-      border: 2px solid #CD7F32;
-      /* залишаємо бронзу */
-      color: #F5F5F5;
-    }
-  
-    .btn-close-custom:hover {
-      background-color: #CD7F32;
-      color: #121212;
-    }
+        .overlay-custom {
+          position: fixed;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          background: rgba(28, 24, 0, 0.95);
+          /* темний бурштиновий фон */
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          opacity: 0;
+          pointer-events: none;
+          transition: opacity 0.35s ease;
+          z-index: 9999;
+        }
+    
+        .overlay-custom.visible {
+          opacity: 1;
+          pointer-events: auto;
+        }
+    
+        /* Вміст модалки */
+        .modal-box-custom {
+          background-color: #441313;
+          /* насичений темно-бордовий */
+          border: 2px solid #5c5a02;
+          /* бронза */
+          border-radius: 14px;
+          padding: 40px 35px;
+          max-width: 420px;
+          width: 90%;
+          color: #F5F5F5;
+          text-align: center;
+          box-sizing: border-box;
+          box-shadow: 0 14px 36px rgba(92, 90, 2, 0.7);
+          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+    
+        /* Поля форми */
+        .input-custom,
+        .textarea-custom {
+          width: 100%;
+          margin: 14px 0;
+          padding: 0.85rem 1.2rem;
+          border-radius: 10px;
+          border: 2px solid #8b0000;
+          /* темно-рубіновий */
+          background-color: #5a1616;
+          /* темний червоно-бордовий фон */
+          color: #ffdddd;
+          /* світло-рожевий */
+          font-size: 1.05rem;
+          box-sizing: border-box;
+          transition: border-color 0.3s ease, background-color 0.3s ease;
+        }
+    
+        .input-custom::placeholder,
+        .textarea-custom::placeholder {
+          color: #f4a1a1;
+          /* світло-рожевий акцент */
+          opacity: 1;
+        }
+    
+        .input-custom:focus,
+        .textarea-custom:focus {
+          outline: none;
+          border-color: #ffa500;
+          /* яскравий бурштиновий */
+          background-color: #7f2a00;
+          /* насичений бурштиновий */
+          color: #fff3e0;
+          /* світлий бурштиновий */
+        }
+    
+        /* Текстова область */
+        .textarea-custom {
+          resize: vertical;
+          min-height: 130px;
+          max-height: 200px;
+          overflow-y: auto;
+        }
+    
+        /* Кнопки */
+        .button-group-custom {
+          display: flex;
+          gap: 1.2rem;
+          justify-content: center;
+          margin-top: 1.5rem;
+        }
+    
+        .btn-submit-custom,
+        .btn-close-custom {
+          flex: 1;
+          padding: 0.85rem 1.3rem;
+          font-size: 1.1rem;
+          border-radius: 10px;
+          cursor: pointer;
+          font-weight: 700;
+          text-transform: uppercase;
+          border: none;
+          transition: background-color 0.3s ease, color 0.3s ease;
+          user-select: none;
+          box-shadow: 0 4px 8px rgba(198, 40, 40, 0.4);
+        }
+    
+        .btn-submit-custom {
+          background-color: #a32020;
+          /* рубіново-червоний */
+          color: #fff7e6;
+          border: 2px solid #a32020;
+        }
+    
+        .btn-submit-custom:hover {
+          background-color: #ff8f00;
+          /* яскравий бурштин */
+          border-color: #ffb800;
+          color: #441313;
+          box-shadow: 0 6px 14px rgba(255, 143, 0, 0.8);
+        }
+    
+        .btn-close-custom {
+          background: transparent;
+          border: 2px solid #cd7f32;
+          /* бронза */
+          color: #f5f5f5;
+          box-shadow: 0 4px 6px rgba(205, 127, 50, 0.5);
+        }
+    
+        .btn-close-custom:hover {
+          background-color: #cd7f32;
+          color: #1c1800;
+          box-shadow: 0 6px 14px rgba(205, 127, 50, 0.9);
+        }
 
     /* modal 18+ */
         .age-popup {
@@ -493,7 +537,8 @@ li {
           left: 0;
           width: 100%;
           height: 100%;
-          background: rgba(18, 18, 18, 0.96);
+          background: rgba(28, 24, 0, 0.96);
+          /* майже чорний з бурштиновим подтоном */
           display: flex;
           justify-content: center;
           align-items: center;
@@ -509,95 +554,115 @@ li {
         }
     
         .age-popup-content {
-          background-color: #1e1e1e;
-          border: 2px solid #CD7F32;
-          border-radius: 12px;
-          padding: 30px 40px;
-          max-width: 400px;
-          width: 90%;
+          background-color: #441313;
+          /* темно-бордовий */
+          border: 2px solid #5c5a02;
+          /* бронза */
+          border-radius: 14px;
+          padding: 40px 32px;
+          max-width: 420px;
+          width: 92%;
           text-align: center;
-          box-shadow: 0 12px 30px rgba(0, 40, 80, 0.7);
-          color: #f1f1f1;
-          /* світлий текст */
-          font-family: Arial, sans-serif;
+          box-shadow: 0 12px 40px rgba(0, 0, 0, 0.8);
+          color: #f5f5f5;
+          font-family: "Segoe UI", Tahoma, sans-serif;
+          animation: popupFadeIn 0.5s ease;
+        }
+    
+        @keyframes popupFadeIn {
+          from {
+            opacity: 0;
+            transform: translateY(-20px);
+          }
+    
+          to {
+            opacity: 1;
+            transform: translateY(0);
+          }
         }
     
         .age-popup-content h1 {
-          font-size: 1.8rem;
+          font-size: 2rem;
           margin-bottom: 20px;
-          color: #FFD700;
-          /* золотий акцент */
+          color: #FF8F00;
+          /* бурштин */
+          text-transform: uppercase;
         }
     
         .age-popup-content p {
           margin-bottom: 25px;
           font-size: 1.1rem;
-          line-height: 1.5;
-          color: #e0e0e0;
+          line-height: 1.6;
+          color: #d2d2d2;
         }
     
         .age-buttons {
           display: flex;
           justify-content: center;
-          gap: 15px;
+          gap: 18px;
           flex-wrap: wrap;
         }
     
         .btn {
-          padding: 12px 18px;
-          border-radius: 8px;
+          padding: 12px 20px;
+          border-radius: 10px;
           font-weight: 600;
           text-transform: uppercase;
           font-size: 1rem;
           cursor: pointer;
-          border: none;
-          transition: background-color 0.3s ease, color 0.3s ease;
-          min-width: 150px;
+          transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+          min-width: 160px;
         }
     
         .btn-yes {
-          background-color: #C62828;
-          color: #fff;
-          border: 2px solid #C62828;
+          background-color: #FF8F00;
+          /* бурштин */
+          color: #1c1800;
+          border: 2px solid #FF8F00;
         }
     
         .btn-yes:hover {
-          background-color: #D32F2F;
-          border-color: #FFD700;
-          color: #FFD700;
+          background-color: #ffc14d;
+          color: #441313;
+          border-color: #441313;
         }
     
         .btn-no {
           background-color: transparent;
-          color: #fff;
-          border: 2px solid #CD7F32;
+          color: #f5f5f5;
+          border: 2px solid #5c5a02;
+          /* бронза */
         }
     
         .btn-no:hover {
-          background-color: #CD7F32;
-          color: #121212;
+          background-color: #5c5a02;
+          color: #1c1800;
         }
-
-.page-container {
-  max-width: 1100px;
-  margin: 50px auto;
-  padding: 60px 80px; /* більші відступи, щоб текст займав ширше поле */
-  background: rgba(10, 31, 68, 0.05); /* майже прозорий, дуже світлий фон */
-  border-radius: 24px;
-  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.25);
-  color: #bcc6e0; /* темно-сірий із синюватим відтінком, щоб краще читалось */
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  line-height: 1.85;
-  box-sizing: border-box;
-  transition: box-shadow 0.3s ease;
-}
+                .page-container {
+                  max-width: 1400px;
+                  margin: 50px auto;
+                  padding: 60px 80px;
+                  background:
+                    linear-gradient(rgba(68, 19, 19, 0.85), rgba(68, 19, 19, 0.85)),
+                    url('/images/ex.jpg') no-repeat center center / cover;
+                  border-radius: 24px;
+                  box-shadow: 0 12px 40px rgba(68, 19, 19, 0.3);
+                  color: #F5F5F5;
+                  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                  line-height: 1.85;
+                  box-sizing: border-box;
+                  transition: box-shadow 0.3s ease;
+                }
+        
+                .page-container:hover {
+                  box-shadow: 0 18px 60px rgba(68, 19, 19, 0.45);       }
 
 .page-container:hover {
   box-shadow: 0 18px 60px rgba(0, 0, 0, 0.4);
 }
 
 .page-container h1 {
-  color: #4a6dbc; /* темно-синій, контрастний */
+  color: #FF8F00; /* темно-синій, контрастний */
   font-size: 3.4rem;
   margin-bottom: 50px;
   text-align: center;
@@ -607,7 +672,7 @@ li {
 }
 
 .page-container h2 {
-  color: #6078a0; /* темніший синій/сірий */
+  color: #FF8F00; /* темніший синій/сірий */
   font-size: 2.2rem;
   margin-top: 3rem;
   margin-bottom: 20px;
@@ -619,11 +684,11 @@ li {
 .page-container p {
   font-size: 19px;
   margin-bottom: 28px;
-  color: #596984; /* темний сірий із холодним відтінком */
+  color: #fff; /* темний сірий із холодним відтінком */
 }
 
 .page-container strong {
-  color: #3f4f78; /* ще темніший відтінок для акцентів */
+  color: #FF8F00; /* ще темніший відтінок для акцентів */
   font-weight: 700;
 }
 
