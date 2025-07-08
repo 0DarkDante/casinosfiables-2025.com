@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="shortcut icon" href="images/logo.png" type="image/x-icon" />
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://casinosfiables-2025.com/css/style.css" />
     <title>
       Casinos Compares Français 2025 – Top Casinos en Ligne Gratuits & Bonus
     </title>
@@ -48,136 +48,92 @@
     <header class="header">
       <div class="container">
         <div class="logo">
-          <a href="./index.html"><img src="images/logo.png" alt="Logo" /></a>
+          <a href="https://casinosfiables-2025.com/index.php"
+            ><img
+              src="https://casinosfiables-2025.com/images/logo.png"
+              alt="Logo"
+          /></a>
         </div>
         <nav class="nav" id="nav">
           <ul class="nav-list">
-            <li><a href="./rapides.html">Retraits Rapides</a></li>
-            <li><a href="./notes.html">Hits FR</a></li>
-            <li><a href="./verifiese.html">Hits Françaiss</a></li>
-            <li><a href="./responsable.html">Nouveautés Fiables</a></li>
+            <li>
+              <a href="https://casinosfiables-2025.com/rapides.php"
+                >Retraits Rapides</a
+              >
+            </li>
+            <li>
+              <a href="https://casinosfiables-2025.com/notes.php">Hits FR</a>
+            </li>
+            <li>
+              <a href="https://casinosfiables-2025.com/verifiese.php"
+                >Hits Françaiss</a
+              >
+            </li>
+            <li>
+              <a href="https://casinosfiables-2025.com/responsable.php"
+                >Nouveautés Fiables</a
+              >
+            </li>
           </ul>
         </nav>
       </div>
     </header>
 
     <main class="page-container">
-      <h1>Conditions Générales d’Utilisation – CasinosFiablesFR</h1>
+  <h1>Retraits Faciles et Immédiats</h1>
+  <p>
+    Tout le monde connaît cette frustration : vous gagnez, puis la plateforme vous demande une pile de documents justificatifs. Sur ces sites, ce genre de complication n’existe pas. Les retraits sont simples, rapides, et le service client reste disponible pour vous aider.
+  </p>
 
-      <p>
-        Bienvenue sur le site officiel de CasinosFiablesFR, accessible via le
-        domaine
-        <a href="https://casinosonlineapostas.com" target="_blank"
-          >https://casinosonlineapostas.com</a
-        >. Cette plateforme propose exclusivement des jeux de casino gratuits, à
-        des fins récréatives, sans aucune possibilité de gains monétaires. Le
-        contenu est destiné uniquement aux personnes âgées de 18 ans ou plus, ou
-        ayant atteint l’âge légal pour jouer dans leur pays.
-      </p>
+  <p>
+    La plupart des plateformes traitent les paiements en moins de 24 heures — parfois même plus vite. Cartes bancaires, portefeuilles électroniques, virements traditionnels : toutes les options courantes sont acceptées et testées par nos soins.
+  </p>
 
-      <p>
-        <strong>Important :</strong><br />
-        Il n’est pas possible de gagner de l’argent réel avec les jeux proposés
-        sur ce site. L’expérience de jeu sur CasinosFiablesFR est purement
-        simulée et ne garantit en aucun cas des résultats similaires sur des
-        plateformes de jeu avec argent réel.
-      </p>
+  <p>
+    Ne laissez pas un moment de plaisir se transformer en galère. Si vous souhaitez retirer vos gains sans délais, ces sites sont faits pour vous.
+  </p>
+</main>
 
-      <p>
-        <strong>Communication avec les utilisateurs</strong><br />
-        En utilisant le site CasinosFiablesFR, vous déclarez avoir lu et accepté
-        notre Politique de Confidentialité. Toutes les données fournies
-        volontairement par les utilisateurs seront traitées conformément aux
-        principes de protection des données en vigueur.
-      </p>
-
-      <p>
-        <strong>Comportement des utilisateurs</strong><br />
-        Les utilisateurs participant à des commentaires, évaluations ou autres
-        fonctionnalités interactives doivent adopter un comportement respectueux
-        et suivre les bonnes pratiques d’utilisation. Malgré nos efforts pour
-        garantir un environnement sûr et positif, nous ne sommes pas
-        responsables du contenu généré par les utilisateurs, notamment s’il
-        enfreint la législation française ou les droits de tiers.
-      </p>
-
-      <p>
-        <strong>Droits de propriété intellectuelle</strong><br />
-        Tous les éléments du site CasinosFiablesFR – y compris le design, les
-        graphiques, les textes, les images, les vidéos et les sons – sont la
-        propriété de notre équipe, de nos partenaires ou de tiers sous licence.
-        Toute reproduction, distribution ou utilisation non autorisée du contenu
-        sans autorisation écrite préalable est strictement interdite.
-      </p>
-
-      <p>
-        <strong>Liens externes</strong><br />
-        Notre site peut contenir des liens vers des sites tiers. En cliquant sur
-        ces liens, vous serez redirigé vers des domaines externes. Nous ne
-        sommes pas responsables du contenu, des politiques de confidentialité ou
-        des conditions d’utilisation de ces sites, ni des actions des
-        utilisateurs sur ces plateformes externes.
-      </p>
-    </main>
 
     <footer class="footer">
       <section class="footer-section">
         <div class="container">
           <div class="gamestops">
-            <img src="images/age-limit.png" alt="18+" /><a
-              href="https://www.chpsaintgregoire.com/"
-              ><img src="images/logo-chp.png" alt="chp" /></a
+            <img
+              src="https://casinosfiables-2025.com/images/age-limit.png"
+              alt="18+"
+            /><a href="https://www.chpsaintgregoire.com/"
+              ><img
+                src="https://casinosfiables-2025.com/images/logo-chp.png"
+                alt="chp" /></a
             ><a href="https://gordonmoody.org.uk/"
-              ><img src="images/gordon-logo.png" alt="gamestop1"
+              ><img
+                src="https://casinosfiables-2025.com/images/gordon-logo.png"
+                alt="gamestop1"
             /></a>
           </div>
         </div>
         <div class="footer-content">
           <div class="container">
             <div class="footer-text">
-              <!-- <img src="./img/age-limit.png" alt="18+" /> -->
-              <p>
-                Le site <strong>CasinosFiablesfr.com</strong> ne souhaite pas
-                que ses informations soient exploitées de manière illégale. Il
-                est de votre responsabilité de respecter l’âge légal requis et
-                les conditions spécifiques à chaque opérateur de jeux.
-              </p>
-              <p>
-                En poursuivant votre navigation, vous confirmez accepter
-                <a href="/terms-of-use"
-                  >nos conditions générales d’utilisation</a
-                >
-                ainsi que
-                <a href="/privacy-policy">notre politique de confidentialité</a
-                >.
-              </p>
-              <p>
-                <strong>CasinosFiablesFR</strong> s’engage dans la prévention du
-                jeu problématique en collaborant avec
-                <a
-                  href="https://www.sosjoueurs.org/"
-                  target="_blank"
-                  rel="noopener"
-                  >SOS Joueurs (0810 600 115)</a
-                >,
-                <a
-                  href="https://gordonmoody.org.uk"
-                  target="_blank"
-                  rel="noopener"
-                  >GordonMoody</a
-                >
-                et
-                <a
-                  href="https://www.chpsaintgregoire.com"
-                  target="_blank"
-                  rel="noopener"
-                  >CHP Saint Grégoire</a
-                >.
-              </p>
-              <p>
-                <strong>18+</strong> - Ce site est strictement réservé aux
-                adultes.
-              </p>
+            <p>
+              Le site <strong>casinosfiablesfr.com</strong> souhaite éviter que ses contenus soient utilisés illégalement. Il est de votre devoir de respecter l’âge légal en vigueur ainsi que les règles propres à chaque opérateur de jeux.
+            </p>
+            <p>
+              En continuant votre navigation, vous acceptez nos 
+              <a href="/terms-of-use">conditions générales d’utilisation</a> ainsi que notre 
+              <a href="/privacy-policy">politique de confidentialité</a>.
+            </p>
+            <p>
+              <strong>CasinosFiablesFR</strong> s’engage activement dans la lutte contre le jeu problématique en collaboration avec 
+              <a href="https://www.sosjoueurs.org/" target="_blank" rel="noopener">SOS Joueurs (0810 600 115)</a>, 
+              <a href="https://gordonmoody.org.uk" target="_blank" rel="noopener">GordonMoody</a> et 
+              <a href="https://www.chpsaintgregoire.com" target="_blank" rel="noopener">CHP Saint Grégoire</a>.
+            </p>
+            <p>
+              <strong>18+</strong> – Ce site est strictement réservé aux personnes majeures.
+            </p>
+
             </div>
             <div class="footer-links">
               <h2>Liens Rapides</h2>
@@ -187,19 +143,25 @@
                     <a href="#" id="triggerContactModal">Contact</a>
                   </li>
                   <li>
-                    <a href="./privacy_policy.html"
+                    <a href="https://casinosfiables-2025.com/privacy_policy.php"
                       >Politique de confidentialité</a
                     >
                   </li>
                   <li>
-                    <a href="./conditions.html">Conditions d'utilisation</a>
+                    <a href="https://casinosfiables-2025.com/conditions.php"
+                      >Conditions d'utilisation</a
+                    >
                   </li>
                   <li>
-                    <a href="./policy_cookies.html"
+                    <a href="https://casinosfiables-2025.com/policy_cookies.php"
                       >Politique relative aux cookies</a
                     >
                   </li>
-                  <li><a href="./responsable.html">Jeu responsable</a></li>
+                  <li>
+                    <a href="https://casinosfiables-2025.com/responsable.php"
+                      >Jeu responsable</a
+                    >
+                  </li>
                 </ul>
               </nav>
             </div>
@@ -264,33 +226,29 @@
 
     <!-- Bannière de cookies -->
     <div id="cookie-banner">
-      <p>
-        Ce site utilise des cookies pour améliorer votre expérience. Vous pouvez
-        accepter ou refuser leur utilisation.
-      </p>
-      <div class="cookie-buttons">
-        <button id="accept-cookies" class="btn btn-accept">J’accepte</button>
-        <button id="reject-cookies" class="btn btn-reject">Je refuse</button>
-      </div>
-    </div>
+  <p>
+    Ce site utilise des cookies afin d'améliorer votre navigation. Vous pouvez choisir d'accepter ou de refuser leur utilisation.
+  </p>
+  <div class="cookie-buttons">
+    <button id="accept-cookies" class="btn btn-accept">Accepter</button>
+    <button id="reject-cookies" class="btn btn-reject">Refuser</button>
+  </div>
+</div>
 
-    <!-- 18+ -->
-    <!-- Pop-up 18+ -->
-    <div id="age-popup" class="age-popup">
-      <div class="age-popup-content">
-        <h1>🔞 Vérification d'âge</h1>
-        <p>
-          Vous devez avoir au moins 18 ans pour accéder à ce site. Avez-vous 18
-          ans ou plus ?
-        </p>
-        <div class="age-buttons">
-          <button id="btn-yes" class="btn btn-yes">
-            Oui, j'ai 18 ans ou plus
-          </button>
-          <button id="btn-no" class="btn btn-no">Non, je suis mineur</button>
-        </div>
-      </div>
+<!-- Contrôle d'âge 18+ -->
+<div id="age-popup" class="age-popup">
+  <div class="age-popup-content">
+    <h1>🔞 Vérification de l'âge</h1>
+    <p>
+      L'accès à ce site est réservé aux personnes majeures (18 ans et plus). Avez-vous au moins 18 ans ?
+    </p>
+    <div class="age-buttons">
+      <button id="btn-yes" class="btn btn-yes">Oui, je suis majeur</button>
+      <button id="btn-no" class="btn btn-no">Non, je suis mineur</button>
     </div>
+  </div>
+</div>
+
 
     <script>
       window.addEventListener("load", () => {
